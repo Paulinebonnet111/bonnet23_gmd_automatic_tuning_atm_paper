@@ -15,10 +15,8 @@ def read_ICONPPE(filenames_,nsimu,noutput,startfile,endfile,years):
     
     for line in paramfile:
         #print(line)
-        dirr='./../C-Postprocessing_PaperExample/Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER'# '/work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
+        dirr='./../C-Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER'# '/work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
         file="table_"+str(years)+startfile+"_nrun_"+str(isimu)+endfile
-        #file="../C-Postprocessing_PaperExample/Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER/table_"+str(years)+startfile+"_nrun_"+str(isimu)+endfile
-        #print(os.getcwd())
         File_object = os.path.abspath(os.path.join(dirr,file))
         if exists(File_object):
             content=open(File_object).readlines()
@@ -86,7 +84,7 @@ def read_ICONPPE_2ndtuningstep(filenames_,nsimu,noutput2ndtuningstep,endfile,yea
 
     for line in paramfile:
         #print(line)
-        dirr='../C-Postprocessing_PaperExample/Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER'# '/work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
+        dirr='../C-Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER'# '/work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
         file="table_"+str(years)+"_nrun_"+str(isimu)+endfile
         File_object = os.path.abspath(os.path.join(dirr,file))
         if exists(File_object):
@@ -139,7 +137,7 @@ def read_ICONPPE_2ndTunStep_tauu(filenames_,nsimu,noutput2ndtuningstep,endfile,y
 
     for line in paramfile:
         #print(line)
-        dirr='../C-Postprocessing_PaperExample/Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER'# /work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
+        dirr='../C-Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER'# /work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
         file="table_"+str(years)+"_nrun_"+str(isimu)+endfile
         File_object = os.path.abspath(os.path.join(dirr,file))
         if exists(File_object):
@@ -185,7 +183,7 @@ def read_ICONPPE_2ndTunStep_ua(filenames_,nsimu,noutput2ndtuningstep,endfile,yea
 
     for line in paramfile:
         #print(line)
-        dirr='../C-Postprocessing_PaperExample/Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER' #/work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
+        dirr='../C-Postprocessing_PaperExample/tables/ALL_PPES_IN_PAPER' #/work/bd1179/b309216/icon/FolderForSimlinkInScratch/model/scripts/postprocessing/Quickplots'
         file="table_"+str(years)+"_nrun_"+str(isimu)+endfile
         File_object = os.path.abspath(os.path.join(dirr,file))
         if exists(File_object):
