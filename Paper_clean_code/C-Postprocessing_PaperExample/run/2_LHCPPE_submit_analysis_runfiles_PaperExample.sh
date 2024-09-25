@@ -1,12 +1,12 @@
 #!/bin/usr/env bash
 
-filename=sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top #TODO update
+filename=sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top #TODO to update
 
 nrun=0
 increm=1
 file1=${filename}-Epen.txt
 while read -r line; do
-    JOBNAME=nrun_${nrun}-PaperExample #TODO update
+    JOBNAME=nrun_${nrun}-PaperExample #TODO to update
     echo ${JOBNAME}
     sbatch run_analysis_R2B5_1979-1980_${JOBNAME}.sh
     sbatch run_analysis_R2B5_1979-1980_${JOBNAME}_NAO.sh

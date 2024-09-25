@@ -3,13 +3,13 @@
 #to iterate over the correct number of runs, copy one parameter files in the pwd:
 # cp /work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/PaperExample/PARAMETER_SAMPLES/sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top-Epen.txt 
 
-filename=sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top #TODO update
+filename=sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top #TODO to update
 
 nrun=0
 increm=1
 file1=${filename}-Epen.txt
 while read -r line; do
-    JOBNAME=nrun_${nrun}-PaperExample #TODO update with the name used to run the ICON PPE
+    JOBNAME=nrun_${nrun}-PaperExample #TODO to update
     echo ${JOBNAME}
     
     #all outputs global analysis - physics outputs and psl (dynamic output)

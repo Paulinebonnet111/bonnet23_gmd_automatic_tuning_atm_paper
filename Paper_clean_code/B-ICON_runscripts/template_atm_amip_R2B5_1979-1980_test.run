@@ -7,11 +7,13 @@
 
 #SBATCH --job-name=exp.JOBNAME.run
 #SBATCH --partition=compute
-#SBATCH --chdir=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/
+#SBATCH --chdir=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/ #TODO: update that path
 #SBATCH --nodes=12
 #SBATCH --threads-per-core=1
-#SBATCH --output=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/Pauline_PPE/PPEPauline_ScriptsToShare/LOG.exp.JOBNAME.run.%j.o
-#SBATCH --error=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/Pauline_PPE/PPEPauline_ScriptsToShare/LOG.exp.JOBNAME.run.%j.err
+#SBATCH --output=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/Pauline_PPE/PPEPauline_ScriptsToShare/LOG.exp.JOBNAME.run.%j.o #TODO: update that path
+ 
+#SBATCH --error=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/Pauline_PPE/PPEPauline_ScriptsToShare/LOG.exp.JOBNAME.run.%j.err #TODO: update that path
+ 
 #SBATCH --exclusive
 #SBATCH --time=02:00:00
 #=============================================================================
@@ -97,7 +99,8 @@ fi
 thisdir=$(pwd)
 basedir=${thisdir%/*}
 export basedir
-icon_data_rootFolder="/pool/data/ICON"
+icon_data_rootFolder="/pool/data/ICON" #TODO: update that path
+ 
 
 # how to start the icon model
 # ---------------------------
