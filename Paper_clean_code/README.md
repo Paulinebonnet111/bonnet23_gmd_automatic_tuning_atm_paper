@@ -17,20 +17,20 @@ The routine is split into the following steps:
 
 	and then run that script in `Path-to-your-ICON-repository\run`:
 
-		> $ bash 1_LHCPPE_make_runfile_PaperExample.sh
+		> bash 1_LHCPPE_make_runfile_PaperExample.sh
 
 	Run the ICON runs:
 	In the ICON repository, in the `run\` folder (not in a subfolder), run the following script: 
 
-		> $ bash 2_LHCPPE_submit_runfiles_PaperExample
+		> bash 2_LHCPPE_submit_runfiles_PaperExample
 
 	This step produces the log and error files, as well as the outputs of the ICON run in the folder `..\experiments`.
 
 3. **C-Postprocessing_PaperExample**:
 	Run Postprocessing scripts:
 			
-		> $ bash run\1_LHCPPE_create_analysis_runfiles_PaperExample.sh
-		> $ bash run\2_LHCPPE_submit_analysis_runfiles_PaperExample.sh
+		> bash run\1_LHCPPE_create_analysis_runfiles_PaperExample.sh
+		> bash run\2_LHCPPE_submit_analysis_runfiles_PaperExample.sh
 
 	This step produces _.ps_ tables with all the output metrics for each runs in the folder `\table`. See the `README.md` file in `C-Postprocessing_PaperExample` for more info.
 
