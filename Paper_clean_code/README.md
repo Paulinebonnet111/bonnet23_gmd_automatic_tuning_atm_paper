@@ -36,7 +36,7 @@ The routine is split into the following steps:
 	Run Postprocessing scripts:
 
 	>>>		
-	bash run\1_LHCPPE_create_analysis_runfiles_PaperExample.sh
+	bash run\1_LHCPPE_create_analysis_runfiles_PaperExample.sh \
 	bash run\2_LHCPPE_submit_analysis_runfiles_PaperExample.sh
 	>>>
 
