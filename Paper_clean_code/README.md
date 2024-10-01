@@ -34,9 +34,11 @@ The routine is split into the following steps:
 
 3. **C-Postprocessing_PaperExample**:
 	Run Postprocessing scripts:
-			
-	> bash run\1_LHCPPE_create_analysis_runfiles_PaperExample.sh
-	> bash run\2_LHCPPE_submit_analysis_runfiles_PaperExample.sh
+
+	>>>		
+	bash run\1_LHCPPE_create_analysis_runfiles_PaperExample.sh
+	bash run\2_LHCPPE_submit_analysis_runfiles_PaperExample.sh
+	>>>
 
 	This step produces _.ps_ tables with all the output metrics for each runs in the folder `\table`. See the `README.md` file in `C-Postprocessing_PaperExample` for more info.
 
