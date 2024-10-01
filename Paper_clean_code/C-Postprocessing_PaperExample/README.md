@@ -30,9 +30,14 @@ in:
     - `1_LHCPPE_create_analysis_runfiles_PaperExample.sh`: this is the script that will create the analysis scripts: it copies the template scripts listed above, and edits them according to the number of the run of the PPE
     - `2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`: this is the script that will run the analysis scripts created `1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
     - `sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top-Epen.txt`: parameter list that was used to create the ICON PPE
-    - `/1-postprocessing/make_seasonal`: this sript is called by the run files to make a time average on the selected years of the ICON outputs (the first year of the simulation is usually removed for spinup)
-    - `/2-analysis`: this script loads the necessary modules and runs a script located in 3-make-tables
-    - `/3-make-tables/TABLE.job`: this scripts defines the output variables
+
+- `./1-postprocessing/make_seasonal`: this sript is called by the run files to make a time average on the selected years of the ICON outputs (the first year of the simulation is usually removed for spinup)
+
+- `./2-analysis`: this script loads the necessary modules and runs a script located in `3-make-tables`
+
+- `./3-make-tables`: 
+
+    - `TABLE.job`: this scripts defines the output variables
     - `TABLE_3d_ua_60N_10hPa.job`, `TABLE_3d_ua_60S_10hPa.job`, `TABLE_tauu_SOO.job` and `TABLE_tauu_NAO.job`: remaps the ICON outputs to regions,
     - `table.ncl`, `table_tauu_region.ncl` and `table_ua_1level.ncl`: creates table files for with the values of the outputs 
     - `VARS.txt`, `VARS_3d.txt` and `VARS_tauu.txt`: these files contain the variables that are printed in the table
@@ -47,5 +52,3 @@ the logs files of each postprocessing script (5 scripts per parameter set: one f
 the tables produced by the postprocessing files are stored here.
 These tables contain all the necessary output metrics.
 
-- `./tables/table_ua_1level.ncl`
-Here, you can find all the tables containing all the data used in the Paper.
