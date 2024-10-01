@@ -1,4 +1,10 @@
-## This folder gathers all the scripts to conduct the automatic tuning routine presented in Bonnet, Pastori et al 2024.
+# This folder gathers all the scripts to conduct the automatic tuning routine presented in Bonnet, Pastori et al 2024.
+
+## Authors
+
+## Description
+
+## How to
 
 The routine is split into the following steps:
 
@@ -41,3 +47,5 @@ The routine is split into the following steps:
 implausibility metrics estimation and selection of the next sampling 
 
 5. **Start again at step 1-**
+
+## Licensing
