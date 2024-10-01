@@ -1,6 +1,6 @@
 ## What the user has to do:
 
-copy in `/run` one of the parameter lists that was created to run the PPE located in the `../B-ICON_runscripts/PARAMETER_SAMPLES/` folder (note that the parameter list is just used here to loop over the number of parameters, i.e. to know the exact length of the PPE on which to run the postprocessing scripts):
+copy in `/run` one of the parameter lists created in `../B-ICON_runscripts/PARAMETER_SAMPLES/` (note that the parameter list is just used here to loop over the number of parameters, i.e. to know the exact length of the PPE on which to run the postprocessing scripts):
 
 > cp ../B-ICON_runscripts/PARAMETER_SAMPLES/name-of-the-parameter-sample-to-copy run/
 
