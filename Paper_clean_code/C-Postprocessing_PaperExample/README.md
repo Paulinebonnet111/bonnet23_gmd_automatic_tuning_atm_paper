@@ -1,22 +1,22 @@
 ## What the user has to do:
 
-copy in `/run` one of the parameter lists created in `../B-ICON_runscripts/PARAMETER_SAMPLES/` (note that the parameter list is just used here to loop over the number of parameters, i.e. to know the exact length of the PPE on which to run the postprocessing scripts):
+- copy in `./run` one of the parameter lists created in `../B-ICON_runscripts/PARAMETER_SAMPLES/` (note that the parameter list is just used here to loop over the number of parameters, i.e. to know the exact length of the PPE on which to run the postprocessing scripts):
 
-> cp ../B-ICON_runscripts/PARAMETER_SAMPLES/name-of-the-parameter-sample-to-copy run/
+> cp ../B-ICON_runscripts/PARAMETER_SAMPLES/name-of-the-parameter-sample-to-copy .run/
 
-edit the lines:
+
+- edit the lines:
 `[...]` **#TODO to update **
 in:
-`1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
+`./run/1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
  and 
-`2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`
+`./run/2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`
 
-Then
-run the script to create the postprocessing runfiles: 
+- In `./run`, run the script to create the postprocessing runfiles: 
 
 > bash 1_LHCPPE_create_analysis_runfiles_PaperExample.sh
 
-run the script to submit the posprocessing runfiles: 
+- In `./run`, Run the script to submit the posprocessing runfiles: 
 
 > bash 2_LHCPPE_submit_analysis_runfiles_PaperExample.sh
 
