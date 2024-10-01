@@ -26,14 +26,16 @@ in:
    
     - `template_runanalysisR2B5_1980-1990.sh`: this is the template for the analysis run that will calculate global outputs
     - `template_runanalysisR2B5_1980-1990_NAO_SOO.sh`: this is the template for the analysis run that will calculate surface downward eastward stresses on the ocean regionally averaged on NAO (North Atlantic Ocean) or SOO (Southern Ocean)
-    - `template_run_analysis_R2B5_1980-1990-2ndtuningstep_60NandS_10and1000hPa.sh`: this is the template for the analysis run that will calculate zonal winds zonally averaged on 60degN or 60degS and at the level 10hPa or 1000hPa
+    - `template_run_analysis_R2B5_1980-1990-2ndtuningstep_60NandS_10and1000hPa.sh`: this is the template for the analysis run that will calculate zonal winds zonally averaged on 60degN or 60degS and at the 10hPa or 1000hPa levels
     - `1_LHCPPE_create_analysis_runfiles_PaperExample.sh`: this is the script that will create the analysis scripts: it copies the template scripts listed above, and edits them according to the number of the run of the PPE
-    - `2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`: this is the script that will run the analysis scripts created `1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
+    - `2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`: this is the script that will run the analysis scripts created by `1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
     - `sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top-Epen.txt`: parameter list that was used to create the ICON PPE
 
-- `./1-postprocessing/make_seasonal`: this sript is called by the run files to make a time average on the selected years of the ICON outputs (the first year of the simulation is usually removed for spinup)
+- `./1-postprocessing/make_seasonal`: 
+this sript is called by the run files to make a time average on the selected years of the ICON outputs (the first year of the simulation is usually removed for spinup)
 
-- `./2-analysis`: this script loads the necessary modules and runs a script located in `3-make-tables`
+- `./2-analysis`: 
+this script loads the necessary modules and runs a script located in `3-make-tables`
 
 - `./3-make-tables`: 
 
@@ -49,6 +51,5 @@ in:
 the logs files of each postprocessing script (5 scripts per parameter set: one for the global variables, and 1 per local variable) are saved automatically here
 
 - `./tables`
-the tables produced by the postprocessing files are stored here.
-These tables contain all the necessary output metrics.
+the tables produced by the postprocessing files are stored here. These tables contain all the necessary output metrics.
 
