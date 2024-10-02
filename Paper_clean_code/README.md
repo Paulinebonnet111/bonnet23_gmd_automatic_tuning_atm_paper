@@ -1,7 +1,7 @@
-# This folder gathers all the scripts to conduct the automatic tuning routine presented in Bonnet, Pastori et al 2024. https://doi.org/10.5194/egusphere-2024-2508
+# This folder gathers all the scripts to conduct the automatic tuning routine presented in Bonnet, Pastori et al 2024. See paper preprint: https://doi.org/10.5194/egusphere-2024-2508
 
 ## Authors
-Pauline Bonnet (1) pauline.bonnet@dlr.de, Lorenzo Pastori (1)
+Pauline Bonnet (1), Lorenzo Pastori (1)
 
 (1) Deutsches Zentrum für Luft- und Raumfahrt (DLR), Institut für Physik der Atmosphäre, Oberpfaffenhofen, Germany
 
@@ -31,7 +31,7 @@ The routine is split into the following steps:
 	> cp A-ICON_runscripts\1_LHCPPE_make_runfile_PaperExample.sh Path-to-your-ICON-repository\run
 
 	/!\ You will need to modify the path in the template file: at each line where the following comment is written : 
-	`[here_a_path_is_defined_and_should_be_changed_by_the_user]` **#TODO: update that path**  
+	`[here_a_path_is_defined_and_should_be_changed_by_the_user]` #TODO: update that path 
 
 	and then run that script in `Path-to-your-ICON-repository\run`:
 
