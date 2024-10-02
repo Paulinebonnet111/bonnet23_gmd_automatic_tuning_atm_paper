@@ -54,8 +54,6 @@ these scripts are called by the run file, and are doing intermediate steps: load
         - `VARS_3d.txt`: zonal winds
         - `VARS_tauu.txt`: surface downward eastward ocean stresses
 
-- `./log` 
-the logs files of each postprocessing script (5 scripts per parameter set: one for the global variables, and 1 per local variable) are saved automatically here
 
 - `./tables`
 the tables produced by the postprocessing files are stored here. These tables contain all the necessary output metrics.
