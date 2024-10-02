@@ -5,18 +5,22 @@
 > cp ../B-ICON_runscripts/PARAMETER_SAMPLES/name-of-the-parameter-sample-to-copy .run/
 
 
-- edit the lines:
-`[...]` **#TODO to update **
-in:
-`./run/1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
- and 
-`./run/2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`
+- in:
+> `./run/1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
+ 
+ and
+
+> `./run/2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`
+
+edit the lines:
+
+> `[...] **#TODO to update **`
 
 - In `./run`, run the script to create the postprocessing runfiles: 
 
 > bash 1_LHCPPE_create_analysis_runfiles_PaperExample.sh
 
-- In `./run`, Run the script to submit the posprocessing runfiles: 
+- In `./run`, run the script to submit the posprocessing runfiles: 
 
 > bash 2_LHCPPE_submit_analysis_runfiles_PaperExample.sh
 
@@ -35,7 +39,10 @@ in:
 this sript is called by the run files to make a time average on the selected years of the ICON outputs (the first year of the simulation is usually removed for spinup)
 
 - `./2-analysis`: 
-this script loads the necessary modules and runs a script located in `3-make-tables`
+
+- `Tables_global.sh`, `Tables_regional_tauu_EditExpName.sh`  `Tables_zonalmean_ua_EditExpName.sh`
+
+these scripts are called by the run file, and are doing intermediate steps: load the necessary modules and run a script located in `3-make-tables`
 
 - `./3-make-tables`: 
 
