@@ -14,7 +14,7 @@
 
 edit the lines:
 
-> `[...] **#TODO to update **`
+> `[...] **#TODO to update**`
 
 - In `./run`, run the script to create the postprocessing runfiles: 
 
@@ -38,10 +38,7 @@ edit the lines:
 - `./1-postprocessing/make_seasonal`: 
 this sript is called by the run files to make a time average on the selected years of the ICON outputs (the first year of the simulation is usually removed for spinup)
 
-- `./2-analysis`: 
-
-- `Tables_global.sh`, `Tables_regional_tauu_EditExpName.sh`  `Tables_zonalmean_ua_EditExpName.sh`
-
+- `./2-analysis`: `Tables_global.sh`, `Tables_regional_tauu_EditExpName.sh`  `Tables_zonalmean_ua_EditExpName.sh`
 these scripts are called by the run file, and are doing intermediate steps: load the necessary modules and run a script located in `3-make-tables`
 
 - `./3-make-tables`: 
@@ -53,7 +50,6 @@ these scripts are called by the run file, and are doing intermediate steps: load
         - `VARS.txt`: all 2d variables
         - `VARS_3d.txt`: zonal winds
         - `VARS_tauu.txt`: surface downward eastward ocean stresses
-
 
 - `./tables`
 the tables produced by the postprocessing files are stored here. These tables contain all the necessary output metrics.
