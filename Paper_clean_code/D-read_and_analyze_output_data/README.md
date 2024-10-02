@@ -9,4 +9,4 @@ implausibility metrics estimation and selection of the next sampling
 ### What the user has to do:
 
 The user should succesively run the three notebooks in the numbering order.
-The user can update: the name of the table files to be read (in `0_Plotting_PPEs_parameters_and_outputs.ipynb` ), the implausilibility metrics threshold so that the new selected sampling is large enough to explore the parameter space and small enough to focus on the are of interest of the parameter-to-output map.
+The user can update: the name of the table files to be read (in `0_Plotting_PPEs_parameters_and_outputs.ipynb` ), the implausilibility metrics threshold (in `2_Implausibility.ipynb`) so that the new selected sampling is large enough to explore the parameter space and small enough to focus on the are of interest of the parameter-to-output map.
