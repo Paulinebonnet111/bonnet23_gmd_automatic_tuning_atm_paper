@@ -13,8 +13,6 @@ Note that for the purpouse of scripts sharing and saving computational ressource
 
 This method is adapted from the History Matching Technique presented in Couvreux et al. 2021. This method was initially presented by Williamson et al., 2017, and has been applied in Hourdin et al., 2021, 2023.
 
-This code is not under license.
-
 The ICON version used is: ICON-A 2.6.4
 The python version used is: python 3.8.13
 
@@ -66,3 +64,5 @@ implausibility metrics estimation and selection of the next sampling
 Using the sampling selected at step 4-, run an ICON PPE in step 2 and continue the following steps, until a converged version of ICON, according to expert knowledge, is reached.
 
 ## Licensing
+This code is not under license.
+
