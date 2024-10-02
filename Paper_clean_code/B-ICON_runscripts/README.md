@@ -1,4 +1,4 @@
-[for the reader: this is esactly the same info as in the main ../README.md file]
+[for the reader: this is exactly the same info as in the main ../README.md file]
 
     This step uses the sampling generated above to create an ensemble of ICON runs. These scripts start from a template ICON run file, copies it the same number of times as the size of the parameter sampling, and replaces the values of the parameters with the values in the sampling. In this folder, one template file has been included: this template is designed for the PPE_1 of the paper. It contains default tags "ParameterParameterParameter" that are replaced with the sampling values for the 6 parameters of PPE_1 using the script 1_LHCPPE_make_runfile_PaperExample.sh.
 
