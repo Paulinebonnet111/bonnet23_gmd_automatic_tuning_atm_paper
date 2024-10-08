@@ -9,4 +9,4 @@ One can change the number of parameters, the size of the sampling, the maximum a
 
 ## Specific choices in this notebook:
  
-Here we show an example for the PPE_1 of the paper Bonnet, Pastori, 2024 and for a size 3 ensemble, to save memory for the new user while running the scripts for testing them.
+Here we show an example for the PPE_1 of the paper Bonnet, Pastori, 2024. We choose an ensemble size of only 3, in order to save memory for the new user while running the scripts for testing them.

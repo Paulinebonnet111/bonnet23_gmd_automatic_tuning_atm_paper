@@ -1,5 +1,7 @@
 #!/bin/usr/env bash
 
+# this script runs the analysis scripts for each of the parameter sets
+
 filename=sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top #TODO to update
 
 nrun=0

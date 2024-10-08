@@ -35,13 +35,8 @@ set -e
 #
 
 echo "############################################"
-echo SCRIPT QuickPlots_Breixo_Pauline
+echo SCRIPT Table_zonal
 echo "############################################"
-
-TAB=0 # Overwritten by webpage
-
-ATM_2d=0 # Overwritten by webpage
-ATM_3d=1 # Overwritten by webpage
 
 set -ex
 DATDIR=${WD_TMP_PROCESSED}
@@ -53,16 +48,6 @@ GrdInfoFile=${gridinfofile}
 #
 #######################################################
 #
-
-# Quickplots will be available through a web-interface
-#WEBPAGE=1
-#
-if [ "$WEBPAGE" = "1" ]
-then
- TAB=1
- ATM_2d=1
- ATM_3d=1
-fi
 # ERA5 (time frame: 1979-2019)
 ERAystrt=$YY1
 ERAylast=$YY2
@@ -108,11 +93,11 @@ pwd
 
 # Load modules 
 
-    CDO_MODULE=cdo/2.0.5-gcc-11.2.0 #changed by Pauline on 29.08.2022 for Levante. was: cdo/1.9.7-gcc64
+    CDO_MODULE=cdo/2.0.5-gcc-11.2.0 #if there is an error, check which version should be loaded "$ module avail cdo"
 
     MODULES="$MODULES $CDO_MODULE"
 
-    NCL_MODULE=ncl/6.6.2-gcc-11.2.0 #changed by Pauline on 29.08.2022 for Levante. was: ncl/6.2.1-gccsys
+    NCL_MODULE=ncl/6.6.2-gcc-11.2.0 #if there is an error, check which version should be loaded "$ module avail ncl"
 
     MODULES="$MODULES $NCL_MODULE"
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 set -ex
-#
+# this script merges all the monthly outputs of the ICON runs, and selects the years that should be analysed and averages the output on this time period
 
 echo "############################################"
 echo SCRIPT make_Seasonal

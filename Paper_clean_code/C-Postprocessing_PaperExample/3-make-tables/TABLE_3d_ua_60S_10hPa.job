@@ -11,6 +11,8 @@ DATDIR=$4
 #
 EXPANA=$5
 #
+#this script defines the output variables
+#and runs another script table.ncl that creates a table with all the 2d output metric names, units andvalues
 
 echo TYP path $TYP
 echo DIR path $DATDIR

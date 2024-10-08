@@ -19,18 +19,18 @@
 #########
 # Common
 #########
-gridinfofile=/pool/data/ICON/grids/public/mpim/0019/icon_grid_0019_R02B05_G.nc
-LSMask=/pool/data/ICON/grids/public/mpim/0019/land/r0001/bc_land_frac_1976.nc
+gridinfofile=/pool/data/ICON/grids/public/mpim/0019/icon_grid_0019_R02B05_G.nc #TODO Setup
+LSMask=/pool/data/ICON/grids/public/mpim/0019/land/r0001/bc_land_frac_1976.nc #TODO Setup
 
 EXP=1979-1980_JOBNAME #TODO Setup
 Ana=ANA
 EXPAna=${EXP}_${Ana} #TODO Setup
 ICON_GRID=R2B5
-EXP_DATA=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/experiments/atm_amip_${ICON_GRID}_${EXP}/
-YY1=1979
+EXP_DATA=/work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/experiments/atm_amip_${ICON_GRID}_${EXP}/ #TODO Setup 
+YY1=1979 #TODO Setup
 YY2=1980 #TODO Setup
 
-SCRIPTS_FOLDER=/work/bd1179/b309216/icon/ICON-2.6.4/icon-tuning-analysis/Postprocessing_PaperExample
+SCRIPTS_FOLDER=/work/bd1179/b309216/icon/ICON-2.6.4/icon-tuning-analysis/Postprocessing_PaperExample #TODO Setup 
 ###############
 # Make seasonal
 ###############

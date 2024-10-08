@@ -6,15 +6,18 @@
 
 
 - in:
-> `./run/1_LHCPPE_create_analysis_runfiles_PaperExample.sh`
- 
- and
-
-> `./run/2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`
+> `./run/1_LHCPPE_create_analysis_runfiles_PaperExample.sh` and  `./run/2_LHCPPE_submit_analysis_runfiles_PaperExample.sh`
 
 edit the lines:
 
-> `[...] **#TODO to update**`
+> `[...] #TODO to update`
+
+- in:
+> `./run/template_runanalysisR2B5_1979-1980.sh`, `./run/template_runanalysisR2B5_1979-1980_NAO_SOO.sh` and `.run/template_runanalysis_R2B5_1979-1980_60NandS_10hPa.sh`
+
+edit the lines:
+
+> `[...] #TODO Setup`
 
 - In `./run`, run the script to create the postprocessing runfiles: 
 

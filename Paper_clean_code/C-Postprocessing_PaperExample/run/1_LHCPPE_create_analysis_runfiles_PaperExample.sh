@@ -1,6 +1,8 @@
 #!/bin/usr/env bash
 
-#to iterate over the correct number of runs, copy one parameter files in the pwd:
+# this script create the analysis scripts for each parameter sets
+
+# todo: to iterate over the correct number of runs, copy one parameter files in the pwd:
 # cp /work/bd1179/b309216/icon/ICON-2.6.4/2.6.4/run/PaperExample/PARAMETER_SAMPLES/sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top-Epen.txt 
 
 filename=sample_PAPEREXAMPLE_Emid_Epen_Edd_Taumf_Pr_R0top #TODO to update
