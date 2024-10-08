@@ -64,5 +64,5 @@ implausibility metrics estimation and selection of the next sampling
 Using the sampling selected at step 4-, run an ICON PPE in step 2 and continue the following steps, until a converged version of ICON, according to expert knowledge, is reached.
 
 ## Licensing
-This code is not under license.
+This code is under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/legalcode)
 
